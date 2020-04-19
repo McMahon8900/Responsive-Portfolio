@@ -36,11 +36,15 @@ First, you will use the Bootstrap CSS Framework to recreate your portfolio. How 
 Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation).
 
 # Preview
+![About-Me](./assets/images/About_Me.png)
+![Portfolio](./assets/images/Portfolio.png)
+![Contact Me](./assets/images/Contact_Me.png)
 
 
 # Technologies Used
 * HTML
 * CSS
+* Bootstrp - CSS framework
 
 # Author
 Linsay McMahon - [Github](https://github.com/McMahon8900)
