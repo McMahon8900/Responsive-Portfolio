@@ -7,58 +7,72 @@
   <title>Linsay McMahon</title>
   <!--LINKING STYLE SHEET-->
   <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 
 <!--DOCUMENT BODY //LINKS ON EACH PAGE-->
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white ">
+      <div class="container">
+        <div class="name">
+          <h1>Linsay McMahon</h1>
+        </div>
 
 
-    <header>
-      <div class="links">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <nav>
-          <div class="logo">
-            <h1>Linsay McMahon</h1>
-          </div>
-          <!-- LINKS -->
-          <ul>
-            <li><a href="index.html">About | </a></li>
-            <li><a href="portfolio.html">Potfolio | </a></li>
-            <li><a href="contact.html">Contact</a></li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
           </ul>
-        </nav>
+        </div>
       </div>
-    </header>
+    </nav>
+  </header>
 
 
-    <!--CONTACT ME PAGE-->
-    <div class="mainContainer">
-      <div class="aboutMe">
-        <article>
-          <h2>Contact Me</h2>
-        </article>
-      </div>
-      <br>
-
-      <!--Contact Me Section-->
-      <div class="contactContainer">
-        <form action="/action_page.php">
-          <label for="contactsName">Name</label>
-          <input type="text" id="contactsName" name="firstandlastname" placeholder="John Smith">
-
-          <label for="email">Email</label>
-          <input type="text" id="contactsEmail" name="email" placeholder="example@gmail.com">
-
-          <label for="subject">Message</label>
-          <textarea id="message" name="message" placeholder="Write something.." style="height:75px"></textarea><br>
-
-          <input type="submit" value="Submit">
-        </form>
-
-      </div>
+  <!--CONTACT ME PAGE-->
+  <div class="mainContainer">
+    <div class="aboutMe">
+      <article>
+        <h2>Contact Me</h2>
+      </article>
     </div>
+    <br>
+
+    <!--Contact Me Section-->
+    <div class="contactContainer">
+      <form action="/action_page.php">
+        <label for="contactsName">Name</label>
+        <input type="text" id="contactsName" name="firstandlastname" placeholder="John Smith">
+
+        <label for="email">Email</label>
+        <input type="text" id="contactsEmail" name="email" placeholder="example@gmail.com">
+
+        <label for="subject">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+
+    </div>
+  </div>
   </div>
 
   <footer>

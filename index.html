@@ -7,7 +7,9 @@
   <title>Linsay McMahon</title>
   <!--LINKING STYLE SHEET-->
   <link rel="stylesheet" href="assets/css/style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 
@@ -15,55 +17,75 @@
 
 
 <body>
-    <header>
-      <div class="links">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white ">
+      <div class="container">
+        <div class="name">
+          <h1>Linsay McMahon</h1>
+        </div>
 
-        <nav>
-          <div class="logo">
-            <h1>Linsay McMahon</h1>
-          </div>
-          <!-- LINKS -->
-          <ul>
-            <li><a href="index.html">About | </a></li>
-            <li><a href="portfolio.html">Potfolio | </a></li>
-            <li><a href="contact.html">Contact</a></li>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
           </ul>
-        </nav>
-      </div>
-    </header>
-
-    <!--PERSONAL INFO // ABOUT ME-->
-    <div class="mainContainer">
-      <div class="aboutMe">
-        <article>
-          <h2>About Me</h2>
-        </article>
-      </div>
-      <br>
-
-        <!--FILLER INFO // NEED TO UPDATE ABOUT ME INFO LATER-->
-        <div class="container">
-          <img class="container_images" src="assets/images/linsay.jpg" alt="Linsay McMahon" style="width:200px;height:200px">
-          <div class="container_about_me">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cum iusto accusantium, ex perspiciatis soluta
-            sed aliquid quia nostrum! Ratione maiores quis enim architecto recusandae laboriosam, nobis similique itaque
-            facere?
-            <br><br>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur laborum ipsam doloremque incidunt, rem
-            officiis sint ex molestias quia hic commodi magni illum inventore voluptates quos quaerat dignissimos
-            provident perspiciatis.
-            <br><br>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod beatae a nisi accusantium dolore, earum nam vero, corrupti repudiandae facilis voluptas aspernatur aliquid debitis laboriosam veritatis deleniti quo laborum enim.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo et numquam odit cupiditate eos adipisci error nesciunt excepturi eveniet vitae? Similique pariatur, veritatis nisi deserunt dolorem officia beatae doloribus impedit.          
-          </p>
         </div>
-        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--PERSONAL INFO // ABOUT ME-->
+  <div class="mainContainer">
+    <div class="aboutMe">
+      <article>
+        <h2>About Me</h2>
+      </article>
+    </div>
+    <br>
+
+    <!--FILLER INFO // NEED TO UPDATE ABOUT ME INFO LATER-->
+    <div class="container">
+      <div class="container_images">
+        <img src="assets/images/linsay.jpg" class="img-rounded" alt="Linsay McMahon" width="200" height="200">
+      </div>
+      <div class="container_about_me">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cum iusto accusantium, ex perspiciatis soluta
+          sed aliquid quia nostrum! Ratione maiores quis enim architecto recusandae laboriosam, nobis similique itaque
+          facere?
+          <br><br>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur laborum ipsam doloremque incidunt, rem
+          officiis sint ex molestias quia hic commodi magni illum inventore voluptates quos quaerat dignissimos
+          provident perspiciatis.
+          <br><br>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod beatae a nisi accusantium dolore, earum nam
+          vero, corrupti repudiandae facilis voluptas aspernatur aliquid debitis laboriosam veritatis deleniti quo
+          laborum enim.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo et numquam odit cupiditate eos adipisci
+          error nesciunt excepturi eveniet vitae? Similique pariatur, veritatis nisi deserunt dolorem officia beatae
+          doloribus impedit.
+        </p>
       </div>
     </div>
+  </div>
+  </div>
   </div>
   <footer>
     &copy;Copyright2020 Linsay McMahon
   </footer>
 </body>
+
 </html>
