@@ -48,3 +48,5 @@ Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your p
 
 # Author
 Linsay McMahon - [Github](https://github.com/McMahon8900)
+
+Link to deployed site - [https://mcmahon8900.github.io/Responsive-Portfolio/](https://mcmahon8900.github.io/Responsive-Portfolio/)
